@@ -1,0 +1,11 @@
+# cluster selectros as per:
+# https://cloud.google.com/anthos-config-management/docs/how-to/clusterselectors
+kind: ClusterSelector
+apiVersion: configmanagement.gke.io/v1
+metadata:
+  name: selector-demo-nonprod
+spec:
+  selector:
+    matchLabels:
+      env: demo
+      envtype: nonprod
