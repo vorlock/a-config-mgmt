@@ -4,9 +4,8 @@ metadata:
   name: config-management
 spec:
   # clusterName is required and must be unique among all managed clusters
-  clusterName: my-cluster
+  clusterName: eks-cluster1
   git:
-    syncRepo: git@github.com:my-github-username/csp-config-management.git
+    syncRepo: https://github.com/vorlock/a-config-mgmt.git
     syncBranch: 1.0.0
-    secretType: ssh
-    policyDir: "foo-corp"
+    secretType: none
