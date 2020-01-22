@@ -1,7 +1,7 @@
 kind: Cluster
 apiVersion: clusterregistry.k8s.io/v1alpha1
 metadata:
-  name: eks-cluster1
+  name: eks-mcdemo-non-prod-01
   labels:
     provider: aws
     location: emea
