@@ -4,7 +4,7 @@ metadata:
   name: aks-demo-01
   labels:
     provider: azure
-    location: emea
+    location: london
     region: uksouth
     env: demo
     envtype: nonprod
