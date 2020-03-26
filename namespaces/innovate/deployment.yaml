@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: "innovate-accounts"
+  annotations:
+    configmanagement.gke.io/cluster-selector: gcp-selector
   labels:
     chart: 'innovate-accounts-1.0.0'
 spec:
@@ -38,7 +40,7 @@ spec:
             memory: "512Mi"
         env:
           - name: PORT
-            value : 3400
+            value : "3400"
           - name: BASE_PATH
             value : "innovate-accounts"
           - name: MONGO_URL
