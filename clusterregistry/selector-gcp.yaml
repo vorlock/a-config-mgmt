@@ -1,0 +1,10 @@
+# cluster selectros as per:
+# https://cloud.google.com/anthos-config-management/docs/how-to/clusterselectors
+kind: ClusterSelector
+apiVersion: configmanagement.gke.io/v1
+metadata:
+    name: gcp-selector
+spec:
+    selector:
+      matchLabels:
+          provider: gcp
