@@ -4,5 +4,6 @@ metadata:
   name: innovate
   labels:
     env: demo
+    istio-injection: enabled
   annotations:
     audit: "true"

@@ -7,4 +7,3 @@ rules:
   resources: ["jobs"]
   verbs:
    - "*"
-

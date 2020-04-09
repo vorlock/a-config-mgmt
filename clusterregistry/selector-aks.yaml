@@ -3,8 +3,8 @@
 kind: ClusterSelector
 apiVersion: configmanagement.gke.io/v1
 metadata:
-    name: aks-selector
+  name: aks-selector
 spec:
-    selector:
-      matchLabels:
-          provider: azure
+  selector:
+    matchLabels:
+      provider: azure
