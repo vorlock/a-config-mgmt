@@ -3,7 +3,7 @@
 kind: ClusterSelector
 apiVersion: configmanagement.gke.io/v1
 metadata:
-    name: gcp-selector
+    name: gke-selector
 spec:
     selector:
       matchLabels:

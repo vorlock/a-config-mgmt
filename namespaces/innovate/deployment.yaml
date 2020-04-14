@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: "innovate-accounts"
   annotations:
-    configmanagement.gke.io/cluster-selector: aks-selector
+    configmanagement.gke.io/cluster-selector: gke-selector
   labels:
     chart: 'innovate-accounts-1.0.0'
 spec:
