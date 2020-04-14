@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: "innovate-accounts"
   annotations:
-    configmanagement.gke.io/cluster-selector: gke-selector
+    configmanagement.gke.io/cluster-selector: priority-one
   labels:
     chart: 'innovate-accounts-1.0.0'
 spec:
