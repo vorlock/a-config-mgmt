@@ -8,4 +8,4 @@ metadata:
     region: eu-west-2
     env: demo
     envtype: nonprod
-    priority: 2
+    priority: two

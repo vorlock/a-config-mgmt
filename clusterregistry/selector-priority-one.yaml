@@ -7,4 +7,4 @@ metadata:
 spec:
     selector:
       matchLabels:
-          priority: 1
+          priority: one
